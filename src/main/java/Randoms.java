@@ -33,7 +33,7 @@ public class Randoms implements Iterable<Integer> {
             Random.max = max;
         }
 
-        public static Integer random() {
+        public static int random() {
             return (int) (Math.random() * ((max - min) + 1)) + min;
         }
     }
